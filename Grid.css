@@ -1,0 +1,50 @@
+ul{
+	display:flex;
+	justify-content:space-evenly;
+	color:white;
+	background-color:black;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+ul li {
+  width: 20%;
+}
+main {
+	display:flex;
+}
+article {
+	width:60%;
+	margin: 1.5em 2.52525% 0 2.0202%;
+}
+article img {
+	max-width: 100%; 
+	margin-bottom: 1em;
+	}
+aside{
+	width:40%;
+	padding:2.0202%;
+	max-width:200px;
+	min-height:180px;
+	background-color:#ffebc6;
+	margin: 1.5em 2.0202% 0 0;
+}
+footer {
+	background-color:#FC8EAC;
+}
+a {
+	color:white;
+}
+#galGrid{
+	display:grid;
+	grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+	grid-gap:20px;
+	align-items:stretch;
+	margin-bottom:20px;
+}
+#galGrid img {
+	border:1px solid #CCCCCC;
+	box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+	max-width:100%;
+
+}
